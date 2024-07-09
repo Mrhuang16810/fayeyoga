@@ -1,0 +1,693 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+*,*::before,*::after{
+    box-sizing:border-box;
+}
+/* css reset end */
+
+
+/* index.html */
+.header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 75px;
+}
+.header .title h1 a{
+    background-image: url(/images/logo.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 350px;
+    height: 75px;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+.header .subTitle span{
+    margin-left: 0.5em;
+    margin-right: 1.5em;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.header .subTitle span a{
+    text-decoration: none;
+    color: #000;
+}
+.header .subTitle .pageColor a{
+    color: rgb(188,143,143);
+}
+.secondContainerBox{
+    background-color: rgb(188,143,143);
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+.secondContainer{
+    width: 900px;
+}
+.secondContainer .notice{
+    margin-top: 16em;
+}
+.secondContainer .notice .noticeTitle{
+    display: flex;
+    position: relative;
+}
+.secondContainer .notice .noticeTitle span{
+    color: rgb(243,243,243);
+    font-size: 35px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: -21px;
+}
+.secondContainer .notice .noticeTitle .upLine{
+    width: 82.5%;
+    height: 5px;
+    border: none;
+    background-color: rgb(243,243,243);
+    position: absolute;
+    right: 0;
+}
+.secondContainer .notice .downLine{
+    width: 100%;
+    height: 5px;
+    border: none;
+    background-color: rgb(243,243,243);
+    margin-top: 2em;
+}
+.secondContainer .notice .noticeContent p{
+    color: rgb(243,243,243);
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-right: 1em;
+}
+.secondContainer .notice .noticeContent .noticeContentOne{
+    margin-top: 3em;
+}
+.secondContainer .notice .noticeContent span{
+    color: rgb(243,243,243);
+    margin-left: 6em;
+}
+.secondContainer .indexPicBox{
+    position: relative;
+}
+.secondContainer .indexPicBox .signImg{
+    position: absolute;
+    top: -235px;
+    right: 80px;
+    width: 360px;
+}
+.secondContainer .indexPicBox .indexBig{
+    position: absolute;
+    width: 630px;
+    top: -200px;
+}
+.secondContainer .indexPicBox .qrCodeBox{
+    position: absolute;
+    right: 0;
+    top: -170px;
+    width: 330px;
+    background-color: rgb(243,243,243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondContainer .indexPicBox .qrCodeBox .orderTitle{
+    color: rgb(128,128,128);
+    font-size: 23px;
+    letter-spacing: 5px;
+    padding-top: 1em;
+}
+.secondContainer .indexPicBox .qrCodeBox .orderLine{
+    width: 100px;
+    height: 5px;
+    border: none;
+    background-color: rgb(188,143,143);
+    margin-top: 15px;
+}
+.secondContainer .indexPicBox .qrCodeBox .joinText{
+    color: rgb(128,128,128);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.secondContainer .indexPicBox .qrCodeBox img{
+    width: 280px;
+}
+.secondContainer .indexPicBox .qrCodeBox .lineidText{
+    color: rgb(128,128,128);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.secondContainer .mapBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+.secondContainer .mapBox img{
+    width: 700px;
+}
+.footer{
+    margin-top: 2em;
+}
+.footer .imgBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .imgBox img{
+    width: 450px;
+}
+.footer .imgBox .searchImg{
+    width: 250px;
+}
+.footer .informationBox{
+    margin-top: 1em;
+    margin-left: 3.5em;
+}
+.footer .informationBoxiconBox{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .informationBoxiconBox .informationBox p{
+    color: rgb(243,243,243);
+    margin-bottom: 1em;
+}
+.footer .informationBoxiconBox .iconBox{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-bottom: 1em;
+}
+.footer .informationBoxiconBox .iconBox img{
+    width: 50px;
+}
+
+/* teacher.html */
+.introduceTitle{
+    margin-top: 3em;
+}
+.introduceTitle p{
+    text-align: center;
+}
+.introduceTitle .bigText{
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.introduceTitle .introduceLine{
+    width: 60px;
+    height: 5px;
+    background-color: rgb(188,143,143);
+    border: none;
+}
+.introduceTitle .smallText{
+    color: rgb(128,128,128);
+    margin-top: 1em;
+}
+.introduceTitle .smallTextTwo{
+    color: rgb(128,128,128);
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.lineName{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lineName img{
+    width: 46%;
+}
+.lineName .lineNameHr{
+    width: 27%;
+    height: 3px;
+    background-color: rgb(188,143,143);
+    border: none;
+}
+.whiteSecondContainer{
+    display: flex;
+    flex-direction: column;
+}
+.whiteSecondContainer .imgContentBox{
+    display: flex;
+    justify-content: center;
+}
+.whiteSecondContainer .imgContentBox .imgContentContainer{
+    display: flex;
+    width: 900px;
+}
+.footerContainerBox{
+    background-color: rgb(188,143,143);
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+.imgContentContainer{
+    margin-top: 2em;
+    position: relative;
+}
+.imgContentContainer .imgContent{
+    line-height: 25px;
+    letter-spacing: 3px;
+    margin-top: 1em;
+}
+.imgContentContainer .imgContent p img{
+    margin-right: 2em;
+    margin-bottom: 2em;
+    width: 40%;
+    float: left;
+}
+.imgContentContainer .imgContent .spaceHr{
+    height: 40px;
+    border: none;
+}
+.imgContentContainer .nameSlogon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+    margin-right: 2em;
+}
+.imgContentContainer .nameSlogon .bigName p{
+    font-size: 20px;
+}
+.imgContentContainer .nameSlogon .bigName .bigNameLine{
+    width: 55px;
+    height: 5px;
+    border: none;
+    background-color: rgb(188,143,143);
+}
+.imgContentContainer .nameSlogon .slogon .slogonOne p{
+    color: rgb(182,182,182);
+    margin-left: 3em;
+    letter-spacing: 3px;
+    margin-top: 0.5em;
+}
+.imgContentContainer .nameSlogon .slogon .slogonOne hr{
+    height: 10px;
+    border: none;
+}
+/* share.html */
+.contentContainerBox{
+    display: flex;
+    justify-content: center;
+}
+.contentContainer{
+    width: 900px;
+    margin-top: 3em;
+}
+.contentOne,.contentTwo,.contentThree{
+    margin-bottom: 5em;
+}
+.contentOne img,.contentThree img{
+    width: 20%;
+    float: right;
+}
+.contentTwo img{
+    width: 20%;
+    float: left;
+}
+.contentOne p,.contentThree p{
+    color: rgb(188,143,143);
+    letter-spacing: 3px;
+}
+.contentTwo p{
+    color: rgb(188,143,143);
+    letter-spacing: 3px;
+    padding-left: 13em;
+}
+.contentOne .contentHr,.contentTwo .contentHr,.contentThree .contentHr{
+    height: 3px;
+    background-color: rgb(188,143,143);
+    border: none;
+}
+.contentOne .contentSpace,.contentTwo .contentSpace,.contentThree .contentSpace{
+    height: 5px;
+    border: none;
+}
+.contentOne .contentBox,.contentThree .contentBox{
+    padding-left: 2em;
+    padding-right: 13em;
+}
+.contentTwo .contentBox{
+    padding-left: 15em;
+    padding-right: 2em;
+}
+.contentOne .contentBox span,.contentTwo .contentBox span,.contentThree .contentBox span{
+    letter-spacing: 3px;
+    line-height: 30px;
+
+}
+.contentOne .contentBox .oneText,.contentTwo .contentBox .twoText,.contentThree .contentBox .threeText{
+    padding-left: 0;
+    line-height: 30px;
+    cursor: pointer;
+    width: 240px;
+}
+.contentOne .contentBox .oneUp,.contentTwo .contentBox .twoUp,.contentThree .contentBox .threeUp{
+    padding-left: 0;
+    line-height: 60px;
+    cursor: pointer;
+}
+.contentOne .contentBox .hiddenOne,.contentTwo .contentBox .hiddenTwo,.contentThree .contentBox .hiddenThree{
+    display: none;
+}
+/* class1 */
+.classBoxContainer{
+    display: flex;
+    justify-content: center;
+}
+.classOneBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    width: 900px;
+}
+.classOneBox p{
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.classOneBox .pTitleHr{
+    height: 5px;
+    width: 70px;
+    background-color: rgb(188,143,143);
+    border: none;
+}
+.classOneBox .threeText{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 1em;
+}
+.classOneBox .threeText a{
+    text-decoration: none;
+}
+.classOneBox span{
+    color: rgb(210,210,210);
+    cursor: pointer;
+}
+.classOneBox .color128{
+    color: rgb(128,128,128);
+}
+.picContainer{
+    margin-top: 6em;
+}
+.picContainer .imgText{
+    position: relative;
+    width: 900px;
+    height: 250px;
+    margin-bottom: 3em;
+    background-color: rgb(243,243,243);
+}
+.picContainer .imgText img{
+    width: 500px;
+    position: absolute;
+    left: 0;
+    margin-top: -3em;
+    margin-left: 2em;
+}
+.picContainer .imgText .classTwoImg{
+    width: 430px;
+    position: absolute;
+    left: 0;
+    margin-top: -3em;
+    margin-left: 2em;
+}
+.picContainer .imgText .imgSlogon{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    height: 100%;
+}
+.picContainer .imgText .imgSlogon p{
+    margin-right: 6em;
+    margin-bottom: 1em;
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgb(188,143,143);
+}
+.picContainer .imgText .imgSlogon .OneSlogonTitle{
+    margin-right: 4em;
+    margin-bottom: 1em;
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgb(188,143,143);
+}
+.picContainer .imgText .imgSlogon .classThreeOneSlogonTitle{
+    margin-right: 5em;
+    margin-bottom: 1em;
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgb(188,143,143);
+}
+.picContainer .imgText .imgSlogon .OneSlogonSmallTextOne{
+    margin-right: 13.2em;
+    color: #000;
+    letter-spacing: 3px;
+}
+.picContainer .imgText .imgSlogon .classThreeOneSlogonSmallTextOne{
+    margin-right: 11em;
+    color: #000;
+    letter-spacing: 3px;
+}
+.picContainer .imgText .imgSlogon .slogonSmallTextOne{
+    margin-right: 6.3em;
+    color: #000;
+    letter-spacing: 3px;
+}
+.picContainer .imgText .imgSlogon .slogonSmallTextTwo{
+    margin-right: 8.6em;
+    color: #000;
+    margin-top: 1em;
+    letter-spacing: 3px;
+}
+.classOneBox .allContent{
+    padding-right: 2em;
+    padding-top: 3em;
+}
+.classOneBox .allContent .squareText{
+    display: flex;
+    margin-bottom: 2em;
+}
+.classOneBox .allContent .squareText{
+    display: flex;
+    margin-bottom: 2em;
+}
+.classOneBox .allContent .squareText img{
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.classOneBox .allContent .squareText .allContentText{
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 24px;
+}
+.classOneBox .allContent .squareText .allContentText .spaceHr{
+    height: 20px;
+    border: none;
+}
+.classOneBox .allContent .squareText .allContentText li{
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+/* classOrder */
+.classOrderContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.schoolTimetable{
+    width: 900px;
+    margin-top: 1em;
+}
+.schoolTimetable p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.schoolTimetable .pTitleHr{
+    width: 53px;
+    height: 5px;
+    background-color: rgb(188,143,143);
+    border: none;
+    margin-bottom: 1em;
+}
+.schoolTimetable table{
+    text-align: center;
+}
+.schoolTimetable table .dayBorder{
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 5px solid rgb(188,143,143);
+}
+.schoolTimetable table .dateColor{
+    color: rgb(188,143,143);
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed rgb(188,143,143);
+    border-right: 1px dashed rgb(188,143,143);
+    border-top: 1px dashed rgb(188,143,143);
+}
+.schoolTimetable table .topDateColor{
+    color: rgb(188,143,143);
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed rgb(188,143,143);
+    border-right: 1px dashed rgb(188,143,143);
+    border-left: 1px dashed rgb(188,143,143);
+}
+.schoolTimetable table .leftDashed{
+    color: rgb(188,143,143);
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed rgb(188,143,143);
+    border-right: 1px dashed rgb(188,143,143);
+    border-top: 1px dashed rgb(188,143,143);
+    border-left: 1px dashed rgb(188,143,143);
+}
+.schoolTimetable table .dateContent{
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(188,143,143);
+}
+.schoolTimetable table .dateContent p{
+    background-color: rgb(188,143,143);
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    display:inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.schoolTimetable table .dateContent span{
+    font-size: 18px;
+    letter-spacing: 10px;
+}
+.courseOrder{
+    width: 900px;
+    margin-top: 1em;
+}
+.courseOrder p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.courseOrder .pTitleHr{
+    width: 53px;
+    height: 5px;
+    background-color: rgb(188,143,143);
+    border: none;
+}
+.courseOrder .orderBoxContentAndHr{
+    display: flex;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+.courseOrder .orderBoxContentAndHr p{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(188,143,143);
+}
+.courseOrder .orderBox .orderBoxContentAndHr hr{
+    width: 500px;
+    height: 3px;
+    border: none;
+    background-color: rgb(188,143,143);
+}
+.courseOrder .orderBox .orderBoxContentAndHr .twoHr{
+    width: 580px;
+}
+.courseOrder .orderBox .orderBoxContentAndHr .threeHr{
+    width: 620px;
+}
+.courseOrder .orderBoxContent p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+    padding-left: 2em;
+}
+.courseOrder .orderBoxContent p a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(188,143,143);
+}
+.courseOrder .orderBox .bottomHr{
+    height: 3px;
+    background-color: rgb(188,143,143);
+    border: none;
+    margin-top: 1em;
+}
+.courseOrder .orderBox .orderBoxContentAndImg{
+    display: flex;
+}
+.courseOrder .orderBox .orderBoxContentAndImg img{
+    width: 100px;
+    margin-left: 2em;
+}

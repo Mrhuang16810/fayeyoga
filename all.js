@@ -1,0 +1,19 @@
+$(".oneText").click(function(){
+    $(".hiddenOne").toggle();
+});
+$(".twoText").click(function(){
+    $(".hiddenTwo").toggle();
+});
+$(".threeText").click(function(){
+    $(".hiddenThree").toggle();
+});
+
+$(".oneUp").click(function(){
+    $(".hiddenOne").toggle();
+});
+$(".twoUp").click(function(){
+    $(".hiddenTwo").toggle();
+});
+$(".threeUp").click(function(){
+    $(".hiddenThree").toggle();
+});
