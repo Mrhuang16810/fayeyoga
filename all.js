@@ -17,3 +17,14 @@ $(".twoUp").click(function(){
 $(".threeUp").click(function(){
     $(".hiddenThree").toggle();
 });
+
+// media1050漢堡選單
+// const hamburgerIcon = document.querySelector(".fa-solid");
+// hamburgerIcon.addEventListener("click",function(e){
+//     if(e.target.nodeName == "I"){
+//         $(".subTitle").toggle();
+//     }
+// });
+$(".hamburgerIcon").click(function(){
+    $(".subTitle").toggle();
+})
