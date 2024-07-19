@@ -19,9 +19,15 @@ $(".threeUp").click(function(){
 });
 
 // media1050漢堡選單
-$(".hamburgerIcon").click(function(){
-    $(".subTitle").toggle();
-})
+// $(".fa-solid").click(function(){
+//     $(".subTitle").toggle();
+// })
+$(document).ready(function(){
+    $('.fa-solid').on('click',function(e){
+        e.preventDefault();
+        $('body').toggleClass('show');
+    });
+});
 
 // classOrder點擊跳出小框
 $(".sTitle").click(function(){

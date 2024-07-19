@@ -60,6 +60,16 @@ img{
 .container .fa-solid{
     display: none;
 }
+@media(max-width:1045px){
+    .container .fa-solid{
+        display: flex;
+        align-items: center;
+        float: right;
+        font-size: 25px;
+        margin-right: 1em;
+        cursor: pointer;
+    }
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -86,15 +96,58 @@ img{
     margin-top: 1em;
     margin-left: 0.5em;
 }
+@media(max-width:1045px){
+    .header .subTitle{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        right: 0;
+        margin-top: 91px;
+        width: auto;
+        background-color: #fff;
+        max-height: 0;
+        overflow: hidden;
+        transition: 1s;
+    }
+    .show .header .subTitle{
+        max-height: 200px;
+        border-top: none;
+        border-bottom: none;
+    }
+}
 .header .subTitle span{
     margin-left: 0.5em;
     margin-right: 1.5em;
     font-weight: 900;
     letter-spacing: 2px;
 }
+@media(max-width:1045px){
+    .header .subTitle span{
+        line-height: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        border-bottom: 1px dashed rgb(188,143,143);
+    }
+    .header .subTitle .noBottomDashed{
+        border-bottom: none;
+    }
+}
 .header .subTitle span a{
     text-decoration: none;
     color: #000;
+}
+@media(max-width:1045px){
+    .header .subTitle span a{
+        padding-left: 0.6em;
+        padding-right: 0.6em;
+        display: block;
+    }
+    .header .subTitle span a:hover{
+        background-color: rgb(188,143,143);
+        color: #fff;
+    }
 }
 .header .subTitle .pageColor a{
     color: rgb(188,143,143);
@@ -630,11 +683,9 @@ img{
     width: 180px;
     height: 50px;
     line-height: 50px;
-    border-bottom: 1px dashed rgb(188,143,143);
-    border-right: 1px dashed rgb(188,143,143);
-    border-left: 1px dashed rgb(188,143,143);
+    border: 1px dashed rgb(188,143,143);
 }
-.schoolTimetable table .leftDashed{
+/* .schoolTimetable table .leftDashed{
     color: rgb(188,143,143);
     width: 180px;
     height: 50px;
@@ -643,11 +694,11 @@ img{
     border-right: 1px dashed rgb(188,143,143);
     border-top: 1px dashed rgb(188,143,143);
     border-left: 1px dashed rgb(188,143,143);
-}
+} */
 .schoolTimetable table .dateContent{
     width: 180px;
     height: 50px;
-    line-height: 30px;
+    line-height: 40px;
     color: rgb(188,143,143);
 }
 .schoolTimetable table .dateContent p{
