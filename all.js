@@ -19,12 +19,11 @@ $(".threeUp").click(function(){
 });
 
 // media1050漢堡選單
-// const hamburgerIcon = document.querySelector(".fa-solid");
-// hamburgerIcon.addEventListener("click",function(e){
-//     if(e.target.nodeName == "I"){
-//         $(".subTitle").toggle();
-//     }
-// });
 $(".hamburgerIcon").click(function(){
     $(".subTitle").toggle();
 })
+
+// classOrder點擊跳出小框
+$(".sTitle").click(function(){
+    $(".eyeOneContent").toggle();
+});
