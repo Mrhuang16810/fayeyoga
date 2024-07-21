@@ -128,6 +128,14 @@ img{
         height: 55px;
     }
 }
+@media(max-width:420px){
+    .header .subTitle{
+        margin-top: 89px;
+    }
+    .show .header .subTitle{
+        max-height: 110px;
+    }
+}
 .header .subTitle span{
     margin-left: 0.5em;
     margin-right: 1.5em;
@@ -146,6 +154,11 @@ img{
         border-bottom: none;
     }
 }
+@media(max-width:420px){
+    .header .subTitle span{
+        line-height: 20px;
+    }
+}
 .header .subTitle span a{
     text-decoration: none;
     color: #000;
@@ -159,6 +172,11 @@ img{
     .header .subTitle span a:hover{
         background-color: rgb(188,143,143);
         color: #fff;
+    }
+}
+@media(max-width:420px){
+    .header .subTitle span a{
+        font-size: 10px;
     }
 }
 .header .subTitle .pageColor a{
@@ -357,7 +375,7 @@ img{
 }
 @media(max-width:420px){
     .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
-        font-size: 8px;
+        font-size: 6px;
         letter-spacing: 0;
     }
 }
@@ -384,7 +402,7 @@ img{
 @media(max-width:420px){
     .ContainerBc128 .indexPicBox .qrCodeBox .orderLine{
         width: 40px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 }
 .ContainerBc128 .indexPicBox .qrCodeBox .joinText{
@@ -404,7 +422,7 @@ img{
 }
 @media(max-width:420px){
     .ContainerBc128 .indexPicBox .qrCodeBox .joinText{
-        font-size: 6px;
+        font-size: 4px;
     }
 }
 .ContainerBc128 .indexPicBox .qrCodeBox img{
@@ -442,7 +460,7 @@ img{
 }
 @media(max-width:420px){
     .ContainerBc128 .indexPicBox .qrCodeBox .lineidText{
-        font-size: 6px;
+        font-size: 4px;
     }
 }
 .ContainerBc128 .mapBox{
