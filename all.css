@@ -82,7 +82,6 @@ img{
 }
 @media(max-width:850px){
     .header{
-        width: auto;
         margin-top: -100px;
     }
 }
@@ -230,16 +229,33 @@ img{
 .ContainerBc128 .indexPicBox{
     position: relative;
 }
+@media(max-width:850px){
+    .ContainerBc128 .indexPicBox{
+        position: static;
+    }
+}
 .ContainerBc128 .indexPicBox .signImg{
     position: absolute;
     top: -235px;
     right: 80px;
     width: 40%;
 }
+@media(max-width:850px){
+    .ContainerBc128 .indexPicBox .signImg{
+        display: none;
+    }
+}
 .ContainerBc128 .indexPicBox .indexBig{
     position: absolute;
     width: 70%;
     top: -200px;
+}
+@media(max-width:850px){
+    .ContainerBc128 .indexPicBox .indexBig{
+        position: static;
+        width: 70%;
+        margin-left: 4em;
+    }
 }
 .ContainerBc128 .indexPicBox .qrCodeBox{
     position: absolute;
@@ -252,28 +268,17 @@ img{
     align-items: center;
 }
 @media(max-width:850px){
-    .ContainerBc128 .indexPicBox{
-        position: static;
-    }
-    .ContainerBc128 .indexPicBox .signImg{
-        position: static;
-        top: 0;
-        right: 0;
-        width: 40%;
-    }
-    .ContainerBc128 .indexPicBox .indexBig{
-        position: static;
-        width: 70%;
-        top: 0;
-    }
     .ContainerBc128 .indexPicBox .qrCodeBox{
-        position: static;
-        top: -0;
-        width: 35%;
-        background-color: rgb(243,243,243);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        top: 12.5em;
+        right: 3em;
+        width: 25%;
+    }
+}
+@media(max-width:765px){
+    .ContainerBc128 .indexPicBox .qrCodeBox{
+        top: 13em;
+        right: 3em;
+        width: 22%;
     }
 }
 .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
@@ -282,6 +287,22 @@ img{
     letter-spacing: 5px;
     padding-top: 1em;
 }
+@media(max-width:850px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
+        font-size: 14px;
+    }
+}
+@media(max-width:765px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
+        font-size: 10px;
+    }
+}
+@media(max-width:765px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 .ContainerBc128 .indexPicBox .qrCodeBox .orderLine{
     width: 100px;
     height: 5px;
@@ -289,18 +310,62 @@ img{
     background-color: rgb(188,143,143);
     margin-top: 20px;
 }
+@media(max-width:850px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .orderLine{
+        height: 2px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:765px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .orderLine{
+        height: 1px;
+        width: 65px;
+        margin-top: 10px;
+    }
+}
 .ContainerBc128 .indexPicBox .qrCodeBox .joinText{
     color: rgb(128,128,128);
     font-size: 14px;
     margin-bottom: 5px;
 }
+@media(max-width:850px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .joinText{
+        font-size: 10px;
+    }
+}
+@media(max-width:765px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .joinText{
+        font-size: 8px;
+    }
+}
 .ContainerBc128 .indexPicBox .qrCodeBox img{
     width: 80%;
+}
+@media(max-width:850px){
+    .ContainerBc128 .indexPicBox .qrCodeBox img{
+        width: 60%;
+        margin-top: 0.5em;
+    }
+}
+@media(max-width:765px){
+    .ContainerBc128 .indexPicBox .qrCodeBox img{
+        width: 50%;
+    }
 }
 .ContainerBc128 .indexPicBox .qrCodeBox .lineidText{
     color: rgb(128,128,128);
     margin-top: 10px;
     margin-bottom: 5px;
+}
+@media(max-width:850px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .lineidText{
+        font-size: 10px;
+    }
+}
+@media(max-width:765px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .lineidText{
+        font-size: 8px;
+    }
 }
 .ContainerBc128 .mapBox{
     display: flex;
