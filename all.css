@@ -70,6 +70,12 @@ img{
         cursor: pointer;
     }
 }
+@media(max-width:420px){
+    .container .fa-solid,.header .fa-solid{
+        font-size: 16px;
+        line-height: 50px;
+    }
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -129,8 +135,12 @@ img{
     }
 }
 @media(max-width:420px){
+    .header .title h1 a{
+        width: 150px;
+        height: 25px;
+    }
     .header .subTitle{
-        margin-top: 89px;
+        margin-top: 50px;
     }
     .show .header .subTitle{
         max-height: 110px;
