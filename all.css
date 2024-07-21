@@ -70,7 +70,7 @@ img{
         cursor: pointer;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .container .fa-solid,.header .fa-solid{
         font-size: 16px;
         line-height: 50px;
@@ -91,7 +91,7 @@ img{
         margin-top: -100px;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .header{
         margin-top: -200px;
     }
@@ -134,7 +134,7 @@ img{
         height: 55px;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .header .title h1 a{
         width: 150px;
         height: 25px;
@@ -164,7 +164,7 @@ img{
         border-bottom: none;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .header .subTitle span{
         line-height: 20px;
     }
@@ -184,7 +184,7 @@ img{
         color: #fff;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .header .subTitle span a{
         font-size: 10px;
     }
@@ -199,7 +199,7 @@ img{
     width: 100%;
     margin-top: 300px;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .secondContainerBox{
         margin-top: 200px;
     }
@@ -220,7 +220,7 @@ img{
 .ContainerBc128 .notice{
     margin-top: 16em;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .notice{
         margin-top: 7em;
     }
@@ -236,9 +236,9 @@ img{
     position: absolute;
     top: -21px;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .notice .noticeTitle span{
-        font-size: 10px;
+        font-size: 16px;
         top: 0;
         padding-left: 1em;
     }
@@ -251,11 +251,11 @@ img{
     position: absolute;
     right: 0;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .notice .noticeTitle .upLine{
         height: 2px;
-        width: 75%;
-        margin-right: 0.6em;
+        width: 72%;
+        margin-right: 1em;
     }
 }
 .ContainerBc128 .notice .downLine{
@@ -265,11 +265,10 @@ img{
     background-color: rgb(243,243,243);
     margin-top: 2em;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .notice .downLine{
         height: 2px;
-        width: 95%;
-        margin-top: 1em;
+        width: 90%;
     }
 }
 .ContainerBc128 .notice .noticeContent p{
@@ -278,26 +277,21 @@ img{
     margin-left: 5em;
     margin-right: 1em;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .notice .noticeContent p{
-        font-size: 6px;
+        font-size: 10px;
     }
 }
 .ContainerBc128 .notice .noticeContent .noticeContentOne{
     margin-top: 3em;
 }
-@media(max-width:320px){
-    .ContainerBc128 .notice .noticeContent .noticeContentOne{
-        margin-top: 4em;
-    }
-}
 .ContainerBc128 .notice .noticeContent span{
     color: rgb(243,243,243);
     margin-left: 6em;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .notice .noticeContent span{
-        font-size: 6px;
+        font-size: 10px;
     }
 }
 .ContainerBc128 .indexPicBox{
@@ -316,8 +310,9 @@ img{
 }
 @media(max-width:850px){
     .ContainerBc128 .indexPicBox .signImg{
-        right: 20px;
-        top: 88px;
+        /* display: none; */
+        right: 5px;
+        top: 85px;
         width: 33%;
     }
 }
@@ -333,7 +328,7 @@ img{
         margin-left: 4em;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .indexPicBox .indexBig{
         position: absolute;
         width: 70%;
@@ -365,10 +360,10 @@ img{
         width: 22%;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .indexPicBox .qrCodeBox{
-        top: 9em;
-        right: 1.5em;
+        top: 10em;
+        right: 2em;
         width: 22%;
     }
 }
@@ -388,7 +383,7 @@ img{
         font-size: 10px;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
         font-size: 6px;
         letter-spacing: 0;
@@ -414,7 +409,7 @@ img{
         margin-top: 10px;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .indexPicBox .qrCodeBox .orderLine{
         width: 40px;
         margin-top: 5px;
@@ -435,7 +430,7 @@ img{
         font-size: 8px;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .indexPicBox .qrCodeBox .joinText{
         font-size: 4px;
     }
@@ -453,7 +448,7 @@ img{
         width: 50%;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .indexPicBox .qrCodeBox img{
         width: 60%;
     }
@@ -473,7 +468,7 @@ img{
         font-size: 8px;
     }
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .ContainerBc128 .indexPicBox .qrCodeBox .lineidText{
         font-size: 4px;
     }
@@ -500,28 +495,22 @@ img{
 .footer .imgBox img{
     width: 450px;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .footer .imgBox img{
-        width: 160px;
+        width: 250px;
     }
 }
 .footer .imgBox .searchImg{
     width: 250px;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .footer .imgBox .searchImg{
-        width: 60px;
+        width: 100px;
     }
 }
 .footer .informationBox{
     margin-top: 1em;
     margin-left: 3.5em;
-}
-@media(max-width:320px){
-    .footer .informationBox{
-        margin-top: 0;
-        margin-left: 0;
-    }
 }
 .footer .informationBoxiconBox{
     display: flex;
@@ -531,16 +520,9 @@ img{
     color: rgb(243,243,243);
     margin-bottom: 1em;
 }
-@media(max-width:320px){
-    .footer .informationBoxiconBox .informationBox{
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-        margin-left: 2em;
-        margin-top: 1.5em;
-    }
+@media(max-width:420px){
     .footer .informationBoxiconBox .informationBox p{
-        font-size: 6px;
+        font-size: 10px;
     }
 }
 .footer .informationBoxiconBox .iconBox{
@@ -550,21 +532,18 @@ img{
     align-items: end;
     margin-bottom: 1em;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .footer .informationBoxiconBox .iconBox{
         justify-content: center;
-        width: 30%;
-        justify-content: space-between;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
     }
 }
 .footer .informationBoxiconBox .iconBox img{
     width: 50px;
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .footer .informationBoxiconBox .iconBox img{
-        width: 15px;
+        width: 25px;
+        margin-left: 0.5em;
     }
 }
 
