@@ -78,11 +78,12 @@ img{
     width: 100%;
     background-color: #fff;
     z-index: 11;
-}
-.container .header{
     margin-top: -300px;
-    background-color: #fff;
-    z-index: 11;
+}
+@media(max-width:850px){
+    .header{
+        margin-top: -100px;
+    }
 }
 .header .title h1 a{
     background-image: url(images/logo.png);
@@ -165,9 +166,23 @@ img{
     width: 100%;
     margin-top: 300px;
 }
+@media(max-width:850px){
+    .secondContainerBox{
+        margin-top: 100px;
+    }
+}
 .ContainerBc128{
     width: 900px;
     margin-top: 120px;
+}
+@media(max-width:850px){
+    .ContainerBc128{
+        width: auto;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .ContainerBc128 .notice{
     margin-top: 16em;
@@ -237,34 +252,27 @@ img{
 }
 @media(max-width:850px){
     .ContainerBc128 .indexPicBox{
-        position: relative;
+        position: static;
     }
     .ContainerBc128 .indexPicBox .signImg{
-        position: absolute;
-        top: -225px;
-        right: 105px;
-        width: 30%;
+        position: static;
+        top: 0;
+        right: 0;
+        width: 40%;
     }
     .ContainerBc128 .indexPicBox .indexBig{
-        position: absolute;
-        width: 60%;
-        top: -200px;
-        left: 100px;
+        position: static;
+        width: 70%;
+        top: 0;
     }
     .ContainerBc128 .indexPicBox .qrCodeBox{
-        position: absolute;
-        right: 60px;
-        top: -150px;
-        width: 25%;
+        position: static;
+        top: -0;
+        width: 35%;
         background-color: rgb(243,243,243);
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-}
-@media(max-width:830px){
-    .ContainerBc128 .indexPicBox .signImg{
-        display:none
     }
 }
 .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
@@ -292,30 +300,6 @@ img{
     color: rgb(128,128,128);
     margin-top: 10px;
     margin-bottom: 5px;
-}
-@media(max-width:850px){
-    .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
-        font-size: 14px;
-        letter-spacing: 2px;
-        padding-top: 1em;
-    }
-    .ContainerBc128 .indexPicBox .qrCodeBox .orderLine{
-        width: 60px;
-        height: 3px;
-        margin-top: 10px;
-    }
-    .ContainerBc128 .indexPicBox .qrCodeBox .joinText{
-        font-size: 10px;
-        margin-bottom: 5px;
-    }
-    .ContainerBc128 .indexPicBox .qrCodeBox img{
-        width: 60%;
-    }
-    .ContainerBc128 .indexPicBox .qrCodeBox .lineidText{
-        margin-top: 10px;
-        margin-bottom: 5px;
-        font-size: 10px;
-    }
 }
 .ContainerBc128 .mapBox{
     display: flex;
