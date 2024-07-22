@@ -76,6 +76,12 @@ img{
         line-height: 50px;
     }
 }
+@media(max-width:320px){
+    .container .fa-solid,.header .fa-solid{
+        font-size: 16px;
+        line-height: 50px;
+    }
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -92,6 +98,11 @@ img{
     }
 }
 @media(max-width:420px){
+    .header{
+        margin-top: -200px;
+    }
+}
+@media(max-width:320px){
     .header{
         margin-top: -200px;
     }
@@ -146,6 +157,18 @@ img{
         max-height: 110px;
     }
 }
+@media(max-width:320px){
+    .header .title h1 a{
+        width: 150px;
+        height: 25px;
+    }
+    .header .subTitle{
+        margin-top: 50px;
+    }
+    .show .header .subTitle{
+        max-height: 110px;
+    }
+}
 .header .subTitle span{
     margin-left: 0.5em;
     margin-right: 1.5em;
@@ -165,6 +188,11 @@ img{
     }
 }
 @media(max-width:420px){
+    .header .subTitle span{
+        line-height: 20px;
+    }
+}
+@media(max-width:320px){
     .header .subTitle span{
         line-height: 20px;
     }
@@ -189,6 +217,11 @@ img{
         font-size: 10px;
     }
 }
+@media(max-width:320px){
+    .header .subTitle span a{
+        font-size: 10px;
+    }
+}
 .header .subTitle .pageColor a{
     color: rgb(188,143,143);
 }
@@ -200,6 +233,11 @@ img{
     margin-top: 300px;
 }
 @media(max-width:420px){
+    .secondContainerBox{
+        margin-top: 200px;
+    }
+}
+@media(max-width:320px){
     .secondContainerBox{
         margin-top: 200px;
     }
@@ -225,6 +263,11 @@ img{
         margin-top: 7em;
     }
 }
+@media(max-width:320px){
+    .ContainerBc128 .notice{
+        margin-top: 7em;
+    }
+}
 .ContainerBc128 .notice .noticeTitle{
     display: flex;
     position: relative;
@@ -239,6 +282,13 @@ img{
 @media(max-width:420px){
     .ContainerBc128 .notice .noticeTitle span{
         font-size: 16px;
+        top: 0;
+        padding-left: 1em;
+    }
+}
+@media(max-width:320px){
+    .ContainerBc128 .notice .noticeTitle span{
+        font-size: 10px;
         top: 0;
         padding-left: 1em;
     }
@@ -258,6 +308,13 @@ img{
         margin-right: 1em;
     }
 }
+@media(max-width:320px){
+    .ContainerBc128 .notice .noticeTitle .upLine{
+        height: 2px;
+        width: 75%;
+        margin-right: 0.6em;
+    }
+}
 .ContainerBc128 .notice .downLine{
     width: 100%;
     height: 5px;
@@ -271,6 +328,13 @@ img{
         width: 90%;
     }
 }
+@media(max-width:320px){
+    .ContainerBc128 .notice .downLine{
+        height: 2px;
+        width: 95%;
+        margin-top: 1em;
+    }
+}
 .ContainerBc128 .notice .noticeContent p{
     color: rgb(243,243,243);
     margin-top: 2em;
@@ -282,8 +346,18 @@ img{
         font-size: 10px;
     }
 }
+@media(max-width:320px){
+    .ContainerBc128 .notice .noticeContent p{
+        font-size: 6px;
+    }
+}
 .ContainerBc128 .notice .noticeContent .noticeContentOne{
     margin-top: 3em;
+}
+@media(max-width:320px){
+    .ContainerBc128 .notice .noticeContent .noticeContentOne{
+        margin-top: 4em;
+    }
 }
 .ContainerBc128 .notice .noticeContent span{
     color: rgb(243,243,243);
@@ -292,6 +366,11 @@ img{
 @media(max-width:420px){
     .ContainerBc128 .notice .noticeContent span{
         font-size: 10px;
+    }
+}
+@media(max-width:320px){
+    .ContainerBc128 .notice .noticeContent span{
+        font-size: 6px;
     }
 }
 .ContainerBc128 .indexPicBox{
@@ -336,6 +415,14 @@ img{
         top: 100px;
     }
 }
+@media(max-width:320px){
+    .ContainerBc128 .indexPicBox .indexBig{
+        position: absolute;
+        width: 70%;
+        right: 4.8em;
+        top: 100px;
+    }
+}
 .ContainerBc128 .indexPicBox .qrCodeBox{
     position: absolute;
     right: 0;
@@ -367,6 +454,13 @@ img{
         width: 22%;
     }
 }
+@media(max-width:320px){
+    .ContainerBc128 .indexPicBox .qrCodeBox{
+        top: 9em;
+        right: 1.5em;
+        width: 22%;
+    }
+}
 .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
     color: rgb(128,128,128);
     font-size: 23px;
@@ -384,6 +478,12 @@ img{
     }
 }
 @media(max-width:420px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
+        font-size: 6px;
+        letter-spacing: 0;
+    }
+}
+@media(max-width:320px){
     .ContainerBc128 .indexPicBox .qrCodeBox .orderTitle{
         font-size: 6px;
         letter-spacing: 0;
@@ -415,6 +515,12 @@ img{
         margin-top: 5px;
     }
 }
+@media(max-width:320px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .orderLine{
+        width: 40px;
+        margin-top: 5px;
+    }
+}
 .ContainerBc128 .indexPicBox .qrCodeBox .joinText{
     color: rgb(128,128,128);
     font-size: 14px;
@@ -431,6 +537,11 @@ img{
     }
 }
 @media(max-width:420px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .joinText{
+        font-size: 4px;
+    }
+}
+@media(max-width:320px){
     .ContainerBc128 .indexPicBox .qrCodeBox .joinText{
         font-size: 4px;
     }
@@ -453,6 +564,11 @@ img{
         width: 60%;
     }
 }
+@media(max-width:320px){
+    .ContainerBc128 .indexPicBox .qrCodeBox img{
+        width: 60%;
+    }
+}
 .ContainerBc128 .indexPicBox .qrCodeBox .lineidText{
     color: rgb(128,128,128);
     margin-top: 10px;
@@ -469,6 +585,11 @@ img{
     }
 }
 @media(max-width:420px){
+    .ContainerBc128 .indexPicBox .qrCodeBox .lineidText{
+        font-size: 4px;
+    }
+}
+@media(max-width:320px){
     .ContainerBc128 .indexPicBox .qrCodeBox .lineidText{
         font-size: 4px;
     }
@@ -500,6 +621,11 @@ img{
         width: 250px;
     }
 }
+@media(max-width:320px){
+    .footer .imgBox img{
+        width: 160px;
+    }
+}
 .footer .imgBox .searchImg{
     width: 250px;
 }
@@ -508,9 +634,20 @@ img{
         width: 100px;
     }
 }
+@media(max-width:320px){
+    .footer .imgBox .searchImg{
+        width: 60px;
+    }
+}
 .footer .informationBox{
     margin-top: 1em;
     margin-left: 3.5em;
+}
+@media(max-width:320px){
+    .footer .informationBox{
+        margin-top: 0;
+        margin-left: 0;
+    }
 }
 .footer .informationBoxiconBox{
     display: flex;
@@ -525,6 +662,18 @@ img{
         font-size: 10px;
     }
 }
+@media(max-width:320px){
+    .footer .informationBoxiconBox .informationBox{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: 2em;
+        margin-top: 1.5em;
+    }
+    .footer .informationBoxiconBox .informationBox p{
+        font-size: 6px;
+    }
+}
 .footer .informationBoxiconBox .iconBox{
     width: 250px;
     display: flex;
@@ -537,6 +686,15 @@ img{
         justify-content: center;
     }
 }
+@media(max-width:320px){
+    .footer .informationBoxiconBox .iconBox{
+        justify-content: center;
+        width: 30%;
+        justify-content: space-between;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
 .footer .informationBoxiconBox .iconBox img{
     width: 50px;
 }
@@ -544,6 +702,11 @@ img{
     .footer .informationBoxiconBox .iconBox img{
         width: 25px;
         margin-left: 0.5em;
+    }
+}
+@media(max-width:320px){
+    .footer .informationBoxiconBox .iconBox img{
+        width: 15px;
     }
 }
 
