@@ -141,8 +141,8 @@ img{
 }
 @media(max-width:915px){
     .header .title h1 a{
-        width: 150px;
-        height: 25px;
+        width: 170px;
+        height: 35px;
     }
     .header .subTitle{
         margin-top: 50px;
@@ -357,7 +357,8 @@ img{
 }
 @media(max-width:505px){
     .ContainerBc128 .notice .noticeTitle span{
-        font-size: 15px;
+        font-size: 13px;
+        padding-left: 0.5em;
     }
 }
 @media(max-width:420px){
@@ -391,16 +392,20 @@ img{
         width: 79%;
     }
 }
+@media(max-width:695px){
+    .ContainerBc128 .notice .noticeTitle .upLine{
+        width: 76%;
+    }
+}
 @media(max-width:580px){
     .ContainerBc128 .notice .noticeTitle .upLine{
-        height: 2px;
         width: 75%;
     }
 }
 @media(max-width:505px){
     .ContainerBc128 .notice .noticeTitle .upLine{
-        height: 2px;
         width: 76%;
+        margin-right: 0.3em;
     }
 }
 @media(max-width:320px){
@@ -429,9 +434,13 @@ img{
         width: 94%;
     }
 }
+@media(max-width:505px){
+    .ContainerBc128 .notice .downLine{
+        width: 98%;
+    }
+}
 @media(max-width:420px){
     .ContainerBc128 .notice .downLine{
-        height: 2px;
         width: 90%;
     }
 }
@@ -453,7 +462,7 @@ img{
         font-size: 14px;
     }
 }
-@media(max-width:690px){
+@media(max-width:705px){
     .ContainerBc128 .notice .noticeContent p{
         font-size: 12px;
     }
@@ -463,9 +472,14 @@ img{
         font-size: 11px;
     }
 }
-@media(max-width:505px){
+@media(max-width:540px){
     .ContainerBc128 .notice .noticeContent p{
         font-size: 10px;
+    }
+}
+@media(max-width:505px){
+    .ContainerBc128 .notice .noticeContent p{
+        font-size: 8px;
     }
 }
 @media(max-width:420px){
@@ -500,7 +514,7 @@ img{
         font-size: 14px;
     }
 }
-@media(max-width:690px){
+@media(max-width:705px){
     .ContainerBc128 .notice .noticeContent span{
         font-size: 12px;
     }
@@ -510,9 +524,14 @@ img{
         font-size: 11px;
     }
 }
-@media(max-width:505px){
+@media(max-width:540px){
     .ContainerBc128 .notice .noticeContent span{
         font-size: 10px;
+    }
+}
+@media(max-width:505px){
+    .ContainerBc128 .notice .noticeContent span{
+        font-size: 8px;
     }
 }
 @media(max-width:420px){
