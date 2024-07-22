@@ -139,10 +139,34 @@ img{
         border-bottom: none;
     }
 }
+@media(max-width:915px){
+    .header .title h1 a{
+        width: 150px;
+        height: 25px;
+    }
+    .header .subTitle{
+        margin-top: 50px;
+    }
+    .show .header .subTitle{
+        max-height: 250px;
+    }
+}
 @media(max-width:600px){
     .header .title h1 a{
         width: 200px;
         height: 55px;
+    }
+}
+@media(max-width:500px){
+    .header .title h1 a{
+        width: 180px;
+        height: 35px;
+    }
+    .header .subTitle{
+        margin-top: 50px;
+    }
+    .show .header .subTitle{
+        max-height: 250px;
     }
 }
 @media(max-width:420px){
@@ -187,6 +211,11 @@ img{
         border-bottom: none;
     }
 }
+@media(max-width:500px){
+    .header .subTitle span{
+        line-height: 24px;
+    }
+}
 @media(max-width:420px){
     .header .subTitle span{
         line-height: 20px;
@@ -194,7 +223,7 @@ img{
 }
 @media(max-width:320px){
     .header .subTitle span{
-        line-height: 20px;
+        line-height: 18px;
     }
 }
 .header .subTitle span a{
@@ -212,6 +241,11 @@ img{
         color: #fff;
     }
 }
+@media(max-width:500px){
+    .header .subTitle span a{
+        font-size: 12px;
+    }
+}
 @media(max-width:420px){
     .header .subTitle span a{
         font-size: 10px;
@@ -219,7 +253,7 @@ img{
 }
 @media(max-width:320px){
     .header .subTitle span a{
-        font-size: 10px;
+        font-size: 6px;
     }
 }
 .header .subTitle .pageColor a{
