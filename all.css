@@ -63,7 +63,7 @@ img{
 .header{
     display: flex;
     justify-content: space-between;
-    line-height: 100px;
+    line-height: auto;
     position: fixed;
     width: 100%;
     background-color: #fff;
@@ -74,11 +74,18 @@ img{
     .header{
         flex-direction: column;
         align-items: center;
+        line-height: 40px;
     }
 }
 @media(max-width:600px){
     .header{
-        line-height: 50px;
+        line-height: 30px;
+    }
+}
+@media(max-width:500px){
+    .header{
+        line-height: 30px;
+        margin-top: -210px;
     }
 }
 @media(max-width:450px){
@@ -186,6 +193,11 @@ img{
     width: 100%;
     margin-top: 300px;
 }
+@media(max-width:500px){
+    .secondContainerBox{
+    margin-top: 200px;
+    }
+}
 @media(max-width:420px){
     .secondContainerBox{
     margin-top: 220px;
@@ -214,6 +226,18 @@ img{
     margin-top: 16em;
 }
 @media(max-width:955px){
+    .ContainerBc128 .notice{
+        margin-top: -2em;
+        margin-bottom: 3em;
+    }
+}
+@media(max-width:600px){
+    .ContainerBc128 .notice{
+        margin-top: -1em;
+        margin-bottom: 3em;
+    }
+}
+@media(max-width:500px){
     .ContainerBc128 .notice{
         margin-top: 4em;
         margin-bottom: 3em;
@@ -261,11 +285,18 @@ img{
         padding-left: 5px;
         padding-right: 5px;
         border-radius: 10px;
+        top: 0;
+        font-size: 26px;
     }
 }
 @media(max-width:740px){
     .ContainerBc128 .notice .noticeTitle span{
         font-size: 20px;
+    }
+}
+@media(max-width:500px){
+    .ContainerBc128 .notice .noticeTitle span{
+        font-size: 16px;
     }
 }
 @media(max-width:425px){
@@ -314,9 +345,24 @@ img{
     margin-left: 5em;
     margin-right: 1em;
 }
-@media(max-width:740px){
+@media(max-width:955px){
     .ContainerBc128 .notice .noticeContent p{
         font-size: 14px;
+        margin-top: 1em;
+        margin-left: 3em;
+        margin-right: 3em;
+        letter-spacing: 2px;
+        line-height: 12px;
+    }
+}
+@media(max-width:500px){
+    .ContainerBc128 .notice .noticeContent p{
+        font-size: 12px;
+        margin-top: 1em;
+        margin-left: 3em;
+        margin-right: 3em;
+        letter-spacing: 2px;
+        line-height: 12px;
     }
 }
 @media(max-width:425px){
@@ -341,6 +387,11 @@ img{
 }
 .ContainerBc128 .notice .noticeContent .noticeContentOne{
     margin-top: 3em;
+}
+@media(max-width:955px){
+    .ContainerBc128 .notice .noticeContent .noticeContentOne{
+        margin-top: 4em;
+    }
 }
 .ContainerBc128 .indexPicBox{
     position: relative;
@@ -381,8 +432,18 @@ img{
 @media(max-width:955px){
     .ContainerBc128 .indexPicBox .indexBig{
         position: relative;
-        top: 0;
+        top: -70px;
         height: 50%;
+    }
+}
+@media(max-width:600px){
+    .ContainerBc128 .indexPicBox .indexBig{
+        top: -40px;
+    }
+}
+@media(max-width:500px){
+    .ContainerBc128 .indexPicBox .indexBig{
+        top: 50px;
     }
 }
 @media(max-width:420px){
@@ -414,7 +475,17 @@ img{
     .ContainerBc128 .indexPicBox .qrCodeBox{
         width: 40%;
         position: relative;
-        top: 0;
+        top: -70px;
+    }
+}
+@media(max-width:600px){
+    .ContainerBc128 .indexPicBox .qrCodeBox{
+        top: -40px;
+    }
+}
+@media(max-width:500px){
+    .ContainerBc128 .indexPicBox .qrCodeBox{
+        top: 50px;
     }
 }
 @media(max-width:420px){
@@ -608,6 +679,11 @@ img{
 @media(max-width:600px){
     .ContainerBc128 .indexPicBox .qrCodeBox img{
         width: 150px;
+    }
+}
+@media(max-width:500px){
+    .ContainerBc128 .indexPicBox .qrCodeBox img{
+        width: 100px;
     }
 }
 @media(max-width:425px){
