@@ -18,15 +18,13 @@ $(".threeUp").click(function(){
     $(".hiddenThree").toggle();
 });
 
-// media1050漢堡選單
-// $(".fa-solid").click(function(){
-//     $(".subTitle").toggle();
-// })
+// 漢堡選單
+
 $(document).ready(function(){
-    $('.fa-solid').on('click',function(e){
+    $(".fa-solid").on("click",function(e){
         e.preventDefault();
-        $('body').toggleClass('show');
-    });
+        $("body").toggleClass("show");
+    })
 });
 
 // classOrder點擊跳出小框
