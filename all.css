@@ -368,6 +368,23 @@ img{
     border: none;
 }
 /* share.html */
+.topBtn{
+    position: fixed;
+    right: 3em;
+    bottom: 2em;
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.36);
+    border: none;
+    background-color: rgb(128,128,128);
+    border-radius: 50%;
+}
+.topBtn a{
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(243,243,243);
+}
 .contentContainerBox{
     display: flex;
     justify-content: center;
