@@ -389,6 +389,10 @@ img{
     letter-spacing: 2px;
     cursor: pointer;
 }
+.yearsBotton button a{
+    text-decoration: none;
+    color: rgb(243,243,243);
+}
 .contentContainer{
     width: 900px;
     margin-top: 3em;
@@ -396,7 +400,7 @@ img{
     padding-left: 2em;
     position: relative;
 }
-.contentContainer .year2022,.contentContainer .year2023,.contentContainer .year2024{
+.contentContainer .year2020,.contentContainer .year2021,.contentContainer .year2022,.contentContainer .year2023,.contentContainer .year2024,.contentContainer .year2025{
     color: rgb(182,182,182);
     font-size: 28px;
     font-weight: 900;
