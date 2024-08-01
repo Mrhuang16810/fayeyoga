@@ -243,6 +243,14 @@ img{
     color: rgb(243,243,243);
     margin-bottom: 1em;
 }
+.footer .informationBoxiconBox .informationBox .noMarginTextPSecondText{
+    color: rgb(243,243,243);
+    display: block;
+    padding-bottom: 1em;
+}
+.footer .informationBoxiconBox .informationBox .noMarginTextP{
+    margin-bottom: 0.3em;
+}
 .footer .informationBoxiconBox .iconBox{
     width: 250px;
     display: flex;
@@ -364,9 +372,26 @@ img{
     display: flex;
     justify-content: center;
 }
+.yearsBotton{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+.yearsBotton button{
+    border: none;
+    background-color: rgb(182,182,182);
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    margin-left: 15px;
+    color: rgb(243,243,243);
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
 .contentContainer{
     width: 900px;
-    margin-top: 120px;
+    margin-top: 3em;
     border-left: 5px solid rgb(182,182,182);
     padding-left: 2em;
     position: relative;
@@ -718,7 +743,7 @@ img{
 }
 .courseOrder .orderBoxContentAndHr{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-top: 1em;
     margin-bottom: 1em;
     position: relative;
@@ -727,10 +752,10 @@ img{
     padding-top: 2em;
 }
 .courseOrder .orderBoxContentAndHr .bigSmallTitleBox p{
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 0.5em;
     cursor: pointer;
-    text-align: center;
+    text-align: left;
     font-weight: 900;
 }
 .courseOrder .orderBoxContentAndHr .eyeOneContent{
@@ -758,18 +783,6 @@ img{
 .courseOrder .orderBoxContentAndHr p a{
     text-decoration: none;
     color: rgb(188,143,143);
-}
-.courseOrder .orderBox .orderBoxContentAndHr hr{
-    width: 50%;
-    height: 1px;
-    border: none;
-    background-color: rgb(188,143,143);
-}
-.courseOrder .orderBox .orderBoxContentAndHr .twoHr{
-    width: 580px;
-}
-.courseOrder .orderBox .orderBoxContentAndHr .threeHr{
-    width: 620px;
 }
 .courseOrder .orderBoxContent p{
     text-align: left;
@@ -812,12 +825,37 @@ img{
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
-.schoolTimetable .orderBoxContentAndImgContainer .orderBoxContentAndImg .orderBoxContent p{
+.schoolTimetable .orderBoxContentAndImgContainer .orderBoxContentAndImg p{
+    font-size: 22px;
+    color: rgb(188,143,143);
+}
+.schoolTimetable .orderBoxContentAndImgContainer .orderBoxContentAndImg .orderBoxContent span{
     font-size: 12px;
     margin-bottom: 0.5em;
 }
-.schoolTimetable .orderBoxContentAndImgContainer .orderBoxContentAndImg .orderBoxContent p a{
+.schoolTimetable .orderBoxContentAndImgContainer .orderBoxContentAndImg .orderBoxContent span a{
     text-decoration: none;
     color: rgb(188,143,143);
     padding-left: 5px;
+}
+.schoolTimetable .personalDirection{
+    padding-top: 2em;
+    padding-left: 1em;
+}
+.schoolTimetable .personalDirection h1{
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 0.5em;
+}
+.schoolTimetable .personalDirection p{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 3em;
+    padding-top: 0.5em;
+}
+.schoolTimetable .personalDirection .boldColor{
+    font-weight: 900;
+    padding: 1em 0 0.5em 3em;
 }
