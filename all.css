@@ -674,6 +674,13 @@ img{
     width: 900px;
     margin-top: 7em;
 }
+.classCaption h2{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 0.5em;
+}
 .courseOrder p,.classCaption p{
     text-align: center;
     font-size: 25px;
@@ -685,6 +692,12 @@ img{
     height: 5px;
     background-color: rgb(188,143,143);
     border: none;
+}
+.classCaption .classCaptionTitleH2{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(188,143,143);
+    letter-spacing: 5px;
 }
 .classCaption .classCaptionTitle{
     font-size: 20px;
@@ -700,7 +713,7 @@ img{
     letter-spacing: 2px;
 }
 .courseOrder .orderBox{
-    border: 1px solid rgb(188,143,143);
+    /* border: 1px solid rgb(188,143,143); */
     margin-top: 1em;
 }
 .courseOrder .orderBoxContentAndHr{
@@ -709,6 +722,9 @@ img{
     margin-top: 1em;
     margin-bottom: 1em;
     position: relative;
+}
+.courseOrder .orderBoxContentAndHr .bigSmallTitleBox{
+    padding-top: 2em;
 }
 .courseOrder .orderBoxContentAndHr .bigSmallTitleBox p{
     font-size: 18px;
@@ -799,4 +815,9 @@ img{
 .schoolTimetable .orderBoxContentAndImgContainer .orderBoxContentAndImg .orderBoxContent p{
     font-size: 12px;
     margin-bottom: 0.5em;
+}
+.schoolTimetable .orderBoxContentAndImgContainer .orderBoxContentAndImg .orderBoxContent p a{
+    text-decoration: none;
+    color: rgb(188,143,143);
+    padding-left: 5px;
 }
